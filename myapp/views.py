@@ -7,7 +7,7 @@ def index(request):
     return HttpResponse("<h1>welcome to views of an app</h1>")
 
 def home(request):
-    return render(request,"myapp/home.html",{'name':"Nisha"})
+    return render(request,"myapp/home.html",{'name':"Akshay"})
 
 def fact(request,n):
     n=int(n)
